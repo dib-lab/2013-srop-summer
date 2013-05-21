@@ -65,4 +65,7 @@ running.
 .. image:: images/ec2-instance-running.png
    :width: 90%
 
+You'll need the hostname of your new computer, on the bottom (ec2-...) --
+we suggest selecting this and copying it somewhere.
+
 Then, go to :doc:`log-in-with-ssh-win`.
