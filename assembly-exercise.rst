@@ -184,10 +184,11 @@ Things to meditate upon --
 
  - combinatorial explosion of parameters!!!
 
-.. TODO: offer them up the orphaned reads
+Reading
+~~~~~~~
 
-.. TODO: add blog post links; assembly paper read
+`Genome sequence assembly primer <http://www.cbcb.umd.edu/research/assembly_primer.shtml>`__
 
-.. TODO: vary parameters: -exp_cov, -scaffolding
+`What does the k parameter do in assembly? <http://ivory.idyll.org/blog/the-k-parameter.html>`__
 
-.. TODO: install khmer?
+`Assembly algorithms for next-generation sequencing data <http://www.ncbi.nlm.nih.gov/pubmed/20211242>`__
