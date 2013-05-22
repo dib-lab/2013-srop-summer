@@ -7,11 +7,11 @@ An Assembly Exercise
 Start up an EC2 instance and log in
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Follow the instructions in :doc:`start-up-an-ec2-instance` BUT with
-one modification: **use the machine image 'ami-c17ec8a8', instead of
-the other ami**.
+Follow the instructions from yesterday (in
+:doc:`start-up-an-ec2-instance`) BUT with one modification: **use the
+machine image 'ami-c17ec8a8', instead of the other ami**.
 
-Log in to the machine with TeraTerm.
+Log in to the machine with SSH (as in :doc:`log-in-with-ssh-win`).
 
 Install the 'Velvet' assembler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
