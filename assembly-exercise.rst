@@ -120,7 +120,7 @@ Running multiple assemblies
 
 Do one more assembly -- for example, set the 'k' parameter to 21 (you can
 set it to any odd number between 19 and 51, if you want to try something
-different than 21).
+different than 21). ::
 
    velveth g.21 21 -shortPaired ecoli-reads-5m-dn-paired.fa.gz 
    velvetg g.21 -exp_cov auto
