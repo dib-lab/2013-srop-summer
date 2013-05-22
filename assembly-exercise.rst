@@ -5,7 +5,7 @@ An Assembly Exercise
 :Date: May 22, 2013
 
 Start up an EC2 instance and log in
-===================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Follow the instructions in :doc:`start-up-an-ec2-instance` BUT with
 one modification: **use the machine image 'ami-c17ec8a8', instead of
@@ -14,7 +14,7 @@ the other ami**.
 Log in to the machine with TeraTerm.
 
 Install the 'Velvet' assembler
-==============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 At the command prompt, copy and paste the following::
 
@@ -26,7 +26,7 @@ At the command prompt, copy and paste the following::
    cp velvet? /usr/local/bin
 
 Grab some data
-==============
+~~~~~~~~~~~~~~
 
 Now, let's grab some read sequencing to assemble::
 
@@ -62,7 +62,7 @@ and "digitizes" it -- in this case it's an Illumina sequencer, but
 there are many other such machines.
 
 Assembling the data
-===================
+~~~~~~~~~~~~~~~~~~~
 
 Now run the following two commands::
 
@@ -116,7 +116,7 @@ You should see something like
    GCCTTTTTCAAAATAAATTAGGATTAAAATAATTAAATCAGTAAATTCCGATGCATGATT
 
 Running multiple assemblies
-===========================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Do one more assembly -- for example, set the 'k' parameter to 21 (you can
 set it to any odd number between 19 and 51, if you want to try something
@@ -155,7 +155,7 @@ Which of these assemblies is "best" by some criterion?  Can you find an
 assembly that is "best" by more than one (unrelated) criterion?
 
 Finishing up for today
-======================
+~~~~~~~~~~~~~~~~~~~~~~
 
 Just leave your EC2 instances running so that we can access the data tomorrow.
 
@@ -163,7 +163,7 @@ Tomorrow, we'll cover ways of graphing some of your statistics.  One possible
 project to present on Friday is your analysis of these various assemblies.
 
 Questions and thoughts to address
-=================================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Things to meditate upon --
 
