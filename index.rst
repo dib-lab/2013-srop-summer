@@ -12,6 +12,7 @@ SROP 2013 summer workshop - Amazon Web Services materials
    start-up-an-ec2-instance
    log-in-with-ssh-win
    creating-ebs-volume
+   assembly-exercise
 
 Indices and tables
 ==================
