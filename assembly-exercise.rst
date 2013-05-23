@@ -7,11 +7,11 @@ An Assembly Exercise
 Start up an EC2 instance and log in
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Follow the instructions in :doc:`start-up-an-ec2-instance` BUT with
-one modification: **use the machine image 'ami-c17ec8a8', instead of
-the other ami**.
+Follow the instructions from yesterday (in
+:doc:`start-up-an-ec2-instance`) BUT with one modification: **use the
+machine image 'ami-c17ec8a8', instead of the other ami**.
 
-Log in to the machine with TeraTerm.
+Log in to the machine with SSH (as in :doc:`log-in-with-ssh-win`).
 
 Install the 'Velvet' assembler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -120,7 +120,7 @@ Running multiple assemblies
 
 Do one more assembly -- for example, set the 'k' parameter to 21 (you can
 set it to any odd number between 19 and 51, if you want to try something
-different than 21).
+different than 21). ::
 
    velveth g.21 21 -shortPaired ecoli-reads-5m-dn-paired.fa.gz 
    velvetg g.21 -exp_cov auto
@@ -184,10 +184,11 @@ Things to meditate upon --
 
  - combinatorial explosion of parameters!!!
 
-.. TODO: offer them up the orphaned reads
+Reading
+~~~~~~~
 
-.. TODO: add blog post links; assembly paper read
+`Genome sequence assembly primer <http://www.cbcb.umd.edu/research/assembly_primer.shtml>`__
 
-.. TODO: vary parameters: -exp_cov, -scaffolding
+`What does the k parameter do in assembly? <http://ivory.idyll.org/blog/the-k-parameter.html>`__
 
-.. TODO: install khmer?
+`Assembly algorithms for next-generation sequencing data <http://www.ncbi.nlm.nih.gov/pubmed/20211242>`__

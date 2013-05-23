@@ -44,8 +44,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'labibi'
-copyright = u'2012, C. Titus Brown'
+project = u'SROP 2013'
+copyright = u'2013, C. Titus Brown'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -176,9 +176,9 @@ htmlhelp_basename = 'labibidoc'
 
 html_context = {
    "google_analytics_id" : 'UA-36028965-1',
-   "disqus_shortname" : 'labibi',
+   "disqus_shortname" : 'srop-2013',
    "github_base_account" : 'ctb',
-   "github_project" : 'labibi',
+   "github_project" : 'srop-2013',
 }
 
 
@@ -242,7 +242,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'labibi', u'labibi Documentation',
+  ('index', 'srop-2013', u'SROP 2013 docs',
    u'C. Titus Brown', 'labibi', 'One line description of project.',
    'Miscellaneous'),
 ]
