@@ -11,7 +11,8 @@ Follow the instructions from yesterday (in
 :doc:`start-up-an-ec2-instance`) BUT with one modification: **use the
 machine image 'ami-c17ec8a8', instead of the other ami**.
 
-Log in to the machine with SSH (as in :doc:`log-in-with-ssh-win`).
+Log in to the machine with SSH (as in :doc:`log-in-with-ssh-win`).  (If
+you're using a Mac, read :doc:`log-in-with-ssh-mac`.)
 
 Install the 'Velvet' assembler
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,6 +162,8 @@ Just leave your EC2 instances running so that we can access the data tomorrow.
 
 Tomorrow, we'll cover ways of graphing some of your statistics.  One possible
 project to present on Friday is your analysis of these various assemblies.
+
+**Update**: `Here's an IPython Notebook <http://nbviewer.ipython.org/urls/raw.github.com/ged-lab/2013-srop-summer/master/srop-2013-assembly-stats.ipynb>`__ that shows you average length stats for a bunch of assemblies.
 
 Questions and thoughts to address
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
