@@ -1,0 +1,4 @@
+Bite-sized R tutorials:						http://www.statmethods.net/
+Short intro to R and R Studio (Alternative GUI, not covered): 	http://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf
+Detailed introduction to R:					http://www.cran.r-project.org/doc/manuals/R-intro.pdf
+Quick reference:						http://cran.r-project.org/doc/contrib/Short-refcard.pdf
